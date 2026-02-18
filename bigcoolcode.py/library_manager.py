@@ -1,7 +1,4 @@
-"""
-Personal Library Manager
-A program to keep track of your books, movies, and music
-"""
+#DU P1 Larose UPDATED PERSONAL LIBRARY / library_manager.py
 
 import csv
 import os
