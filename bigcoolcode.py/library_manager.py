@@ -177,7 +177,7 @@ def add_item():
         print("Title cannot be empty!")
         new_item['title'] = input("Title: ").strip()
     
-    new_item['creator'] = input("Creator (author/artist/director): ").strip()
+    new_item['creator'] = input("Author: ").strip()
     while not new_item['creator']:
         print("Creator cannot be empty!")
         new_item['creator'] = input("Creator: ").strip()
@@ -244,7 +244,7 @@ def update_item():
             try:
                 item['year'] = int(new_year)
             except:
-                print("Invalid year, keeping old value")
+                print("Invalid year, keeping old value. (MUST BE AN INTEGER!)")
         
         new_genre = input(f"Genre [{item['genre']}]: ").strip()
         if new_genre:
