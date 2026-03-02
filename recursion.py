@@ -1,12 +1,14 @@
 #DU p1 Larose recursion fractal design
 
+
+'''RE_WRITE CODE< BIG BUG THAT MAKES THE FRACTAL IMAGE GENERATE WEIRDLY'''
+
 import turtle
 
 # main function that runs the program
 def main():
     # greet the user and get inputs
-    print("Welcome to the Sierpinski Triangle Generator")
-    print("This program creates a Sierpinski Triangle fractal using recursion.\n")
+    print("Welcome to the Fractal Triangle Generator")
     
     # get recursion depth from user (1-5)
     depth = 0
@@ -28,12 +30,12 @@ def main():
     if bg_choice == "yes":
         bg_color = input("Enter background color: ")
     
-    print("\nGenerating Sierpinski Triangle...\n")
+    print("\nGenerating recursion Triangle...\n")
     
     # set up the turtle screen
     screen = turtle.Screen()
     screen.bgcolor(bg_color)
-    screen.title("Sierpinski Triangle")
+    screen.title("recursion Triangle")
     
     # create and setup turtle
     t = turtle.Turtle()
@@ -97,5 +99,4 @@ def draw_sierpinski(t, length, depth):
         t.backward(length/2)
         t.left(60)
         t.pendown()
-
 main()
