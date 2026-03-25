@@ -237,4 +237,6 @@ class Game:
                 print("\nInvalid choice!")
             
             self.update_pet()
+
+game = Game()
 game.run()
