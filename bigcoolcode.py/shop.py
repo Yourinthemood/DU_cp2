@@ -1,4 +1,4 @@
-'''La La LA La"
+'''La La LA La'''
 
 class Shop:
     def __init__(self):
