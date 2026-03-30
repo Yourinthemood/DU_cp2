@@ -1,6 +1,6 @@
 # DU Larose P1
 # Movie recommender
-
+import xdgenvpy
 import csv
 
 def load_movies(filename):
